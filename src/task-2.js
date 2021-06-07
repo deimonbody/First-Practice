@@ -1,0 +1,1 @@
+export default function getNthItem(a, n) {return ((n == 0) ? 0 :n = a-2*getNthItem(a,n-1))};
